@@ -1,3 +1,7 @@
+@font-face{
+	src: url(cursiv.ttf);
+	font-family: Eis;
+}
 body, html {
 	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -12,7 +16,7 @@ h2 {
 	font-weight: 500;
 	font-size: 34px;
 	color: #333;
-	text-transform: uppercase;
+	font-family: 'Eis'
 }
 h3 {
 	font-size: 22px;
@@ -99,17 +103,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Eis';
 	font-size: 36px;
 	color: #8eb640;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a {
-	text-transform: uppercase;
+	
 	color: #ddd;
 	font-weight: 500;
-	font-size: 15px;
+	font-family: "Eis";
+	font-size: 24px;
 	padding: 5px 0;
 	border: 2px solid transparent;
 	letter-spacing: 0.5px;
@@ -175,7 +180,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/HintergrundSchwarz.jpg) no-repeat center center;
+	background: url(../img/eiscafe-intro-bg.jpg) no-repeat center center fixed;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -186,10 +191,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(0,0,0,0.4);
 }
 .intro h1 {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Eis';
 	color: #fff;
 	font-size: 10em;
-	font-weight: 700;
+	font-weight: 400;
 	margin-top: 0;
 	margin-bottom: 10px;
 }
@@ -295,7 +300,7 @@ header .intro-text {
 	padding: 0 0 120px 0;
 }
 #portfolio .section-title {
-	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/shooting_blank/Gallery-Eiscafe.jpg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
@@ -479,7 +484,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 	background: #8eb640;
 }
 #call-reservation h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Eis';
 	color: #fff;
 	font-weight: 400;
 	margin: 0;
@@ -517,7 +522,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Eis';
 	float: left;
 }
 #contact .form-control {
