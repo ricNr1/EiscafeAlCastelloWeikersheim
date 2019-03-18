@@ -180,7 +180,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/eiscafe-intro-bg.jpg) no-repeat center center fixed;
+	background: url(../img/eiscafe-intro-bg-LQ.jpg) no-repeat center center fixed;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -247,7 +247,7 @@ header .intro-text {
 	padding: 0 0 60px 0;
 }
 #restaurant-menu .section-title {
-	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/menu-bg-LQ.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 #restaurant-menu .section-title h2 {
