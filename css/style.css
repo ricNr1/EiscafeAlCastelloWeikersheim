@@ -180,6 +180,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
 	background: url(../img/eiscafe-intro-bg-LQ.jpg) no-repeat center center fixed;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
@@ -248,6 +252,10 @@ header .intro-text {
 }
 #restaurant-menu .section-title {
 	background: #444 url(../img/menu-bg-LQ.jpg) center center no-repeat fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
 	background-size: cover;
 }
 #restaurant-menu .section-title h2 {
@@ -301,6 +309,10 @@ header .intro-text {
 }
 #portfolio .section-title {
 	background: #444 url(../img/shooting_blank/Gallery-Eiscafe.jpg) center center no-repeat fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
 	background-size: cover;
 	margin-bottom: 50px;
 }
@@ -421,6 +433,10 @@ ol.type li a:hover {
 #team {
 	color: #fff;
 	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
 	background-size: cover;
 }
 #team .overlay {
