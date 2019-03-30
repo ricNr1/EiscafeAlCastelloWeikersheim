@@ -11,6 +11,14 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+.intro h1 {
+	font-family: 'Eis';
+	color: #fff;
+	font-size: 8em;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
 h2 {
 	margin: 0 0 20px 0;
 	font-weight: 500;
@@ -30,9 +38,10 @@ h4 {
 	color: #333;
 }
 h5 {
-	text-transform: uppercase;
-	font-weight: 700;
-	line-height: 20px;
+	font-size: 2em;
+	font-weight: 400;
+	font-family: 'Eis';
+	color: #fff;
 }
 p {
 	font-size: 16px;
@@ -194,14 +203,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro .overlay {
 	background: rgba(0,0,0,0.4);
 }
-.intro h1 {
-	font-family: 'Eis';
-	color: #fff;
-	font-size: 8em;
-	font-weight: 400;
-	margin-top: 0;
-	margin-bottom: 10px;
-}
+
 .intro span {
 	color: #a7c44c;
 	font-weight: 600;
