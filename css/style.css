@@ -479,12 +479,12 @@ ol.type li a:hover {
 	border: 1px solid rgba(255, 255, 255, 0.2);
 }
 #team .thumbnail .caption {
-	padding-top: 10px;
+	padding-top: 8px;
 }
 #team .thumbnail .caption p {
 	color: rgba(255,255,255,0.7);
 	padding: 0 10px;
-	font-size: 15px;
+	font-size: 18px;
 }
 /* Call Reservation Section */
 #call-reservation {
@@ -513,7 +513,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 #call-reservation h3 {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 22px;
 	margin: 5px 0;
 }
 /* Contact Section */
