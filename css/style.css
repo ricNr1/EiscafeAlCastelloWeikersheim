@@ -313,15 +313,15 @@ header .intro-text {
 #portfolio {
 	padding: 0 0 120px 0;
 }
-#portfolio .section-title {
-	background: #444 url(../img/shooting_blank/Gallery-Eiscafe-Weikersheim.jpg) center center no-repeat fixed;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-	min-height: 100%;
-	background-size: cover;
-	margin-bottom: 50px;	
-}
+	#portfolio .section-title {
+		background: #444 url(../img/alcastello_graf_Ver1.jpeg) center center no-repeat fixed;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		min-height: 100%;
+		background-size: cover;
+		margin-bottom: 50px;
+	}
 #portfolio .section-title h2 {
 	color: #fff;
 }
