@@ -515,6 +515,7 @@ section { padding: 4.5rem 0; scroll-margin-top: 4.5rem; }
 /* Lightbox */
 
 .lightbox {
+  margin: auto; /* zentriert das Dialog-Element (der globale Reset entfernt sonst das UA-margin) */
   border: none;
   padding: 0;
   background: transparent;
