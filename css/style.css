@@ -112,9 +112,12 @@ h2.section-head {
 }
 
 .nav-brand {
-  font-size: 1.9rem;
-  color: var(--rosso);
-  text-decoration: none;
+  display: block;
+}
+
+.nav-brand img {
+  height: 2.6rem;
+  width: auto;
 }
 
 .nav-toggle {
@@ -208,17 +211,12 @@ h2.section-head {
 
 .hero-inner { padding: 6rem 1.25rem 5rem; max-width: 46rem; }
 
-.hero-neon {
-  display: block;
-  font-family: 'Caveat', cursive;
-  font-weight: 600;
-  font-size: clamp(4rem, 13vw, 8.5rem);
-  line-height: 0.95;
-  color: #FFF7E6;
-  text-shadow:
-    0 0 6px rgba(255, 244, 214, 0.9),
-    0 0 18px rgba(255, 214, 140, 0.55),
-    0 0 46px rgba(255, 176, 82, 0.4);
+.hero-logo {
+  width: min(76vw, 440px);
+  margin: 0 auto;
+  filter:
+    drop-shadow(0 0 8px rgba(255, 244, 214, 0.55))
+    drop-shadow(0 0 30px rgba(255, 178, 74, 0.35));
 }
 
 .hero-tagline {
@@ -584,10 +582,9 @@ section { padding: 4.5rem 0; scroll-margin-top: 4.5rem; }
 .footer a { color: #F0A48F; text-decoration: none; }
 .footer a:hover { text-decoration: underline; }
 
-.footer-brand {
-  font-size: 2.4rem;
-  color: #FFF7E6;
-  text-shadow: 0 0 14px rgba(255, 214, 140, 0.45);
+.footer-brand img {
+  width: 180px;
+  margin-bottom: 1rem;
 }
 
 .footer-insta { margin-top: 2.5rem; text-align: center; font-style: italic; }
