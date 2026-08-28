@@ -589,6 +589,10 @@ section { padding: 4.5rem 0; scroll-margin-top: 4.5rem; }
 
 .footer-insta { margin-top: 2.5rem; text-align: center; font-style: italic; }
 
+.footer-credit,
+.footer-credit a { color: rgba(217, 206, 194, 0.45); }
+.footer-credit a:hover { color: #D9CEC2; }
+
 .footer-legal {
   margin-top: 2rem;
   padding-top: 1.5rem;
